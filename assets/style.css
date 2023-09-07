@@ -246,6 +246,11 @@ footer {
 }
 
 @media screen and (max-width: 1030px) {
+    header {
+        width: 45em;
+        font-size: 20px;
+    }
+    
     #info-card {
         margin: 0 5px;
     }
@@ -283,6 +288,7 @@ footer {
         padding: 0 25px;
     }
 
+    
 
     #menu-bar {
         font-size: 28px;
@@ -341,7 +347,7 @@ footer {
 
 
     #header {
-        width: 630px;
+        width: 7%;
     }
 
 
@@ -402,5 +408,12 @@ footer {
         flex-wrap: nowrap;
         flex-direction: column;
         margin-top: 40em;
+    }
+}
+
+@media screen and (max-width: 230px) {
+    #header {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
