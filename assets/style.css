@@ -107,6 +107,7 @@ figure {
 #About-fix {
     font-size: 36px;
     margin: 0 34px;
+    width: 5.2em;
 }
 
 
@@ -171,6 +172,11 @@ div#know-more.Column {
 }
 
 
+#Project-fix {
+    padding-right: 30px;
+}
+
+
 #images {
     padding-left: 5em;
 }
@@ -189,21 +195,21 @@ div#know-more.Column {
 
 #Trip-fixed-img {
     width: 23em;
-    height: 15em;
+    height: 33em;
     flex-grow: 1;
 }
 
 
 #Car-fixed-img {
     width: 23em;
-    height: 15em;
+    height: 33em;
     flex-grow: 1;
 }
 
 
 #Gaming-fixed-img {
     width: 23em;
-    height: 15em;
+    height: 33em;
     flex-grow: 1;
 }
 
@@ -221,6 +227,12 @@ div#know-more.Column {
 }
 
 
+#Contact-fix {
+    width: 6em;
+    margin-right: 1.9em;
+    margin-left: 0px;
+}
+
 
 .Title-me h2 {
     margin: 0 50px;
@@ -229,12 +241,9 @@ div#know-more.Column {
 
 #info-card {
     display: flex;
-    flex-wrap: wrap;
-}
-
-
-#info-card p{
-    padding: 0 90px;
+    justify-content: space-between;
+    padding-left: 6em;
+    width: 70em;
 }
 
 
@@ -242,22 +251,44 @@ footer {
     text-align: center;
 }
 
-@media screen and (max-width: 2590px) {
-    #horiseon-img {
-        width: 90%;
+@media screen and (max-width: 1202px) {
+    #About-fix {
+        width: 5.2em;
     }
 
-    #Trip-fixed-img, #Car-fixed-img, #Gaming-fixed-img {
-        width: 30%;
-        height: 45%;
-    }
-
-    .Text-me h2 {
-        margin: 0 20%;
+    #Contact-fix {
+        width: 5.5em;
+        margin-left: 5px;
+        margin-right: 73px;
     }
 
     .Contact {
         height: 6em;
+    }
+
+    #info-card {
+        width: 10em;
+        padding-left: 5em;
+    }
+    
+    #phone {
+        width: 5em;
+        padding-right: 5em;
+    }
+    
+    #email{
+        width: 8.5em;
+        padding-right: 5em;
+    }
+
+    #GitHub{
+        width: 8.5em;
+        padding-right: 5em;
+    }
+
+    #Linked{
+        width: 8.5em;
+        padding-right: 5em;
     }
 }
 

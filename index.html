@@ -42,7 +42,7 @@
 
     <main class="about-me">
         <div class="Title-me" id="About">
-            <aside id="About-fix">
+            <aside>
                 <h2 id="About-fix" class="about-me-title">About Me</h2>
             </aside>
         <div>
@@ -77,7 +77,7 @@
     <main class="about-me">
         <div class="Title-me" id="Project">
             <aside>
-                <h2>Project</h2>
+                <h2 id="Project-fix">Project</h2>
             </aside>
             <section id="images">
                 <a href="https://lujoffily.github.io/Horiseon_project" target="_blank"><img src="./assets/Image/Horiseon_image.jpg" alt="Screenshot of Horiseon Website" id="horiseon-img" class="Project-imgs"></a>
@@ -91,15 +91,15 @@
 
     <main class="about-me" id="Contact-section">
         <div class="Title-me" class="Contact">
-            <aside class="Contact">
-            <h2 class="Contact">Contact Me</h2>
+            <aside>
+            <h2 class="Contact" id="Contact-fix">Contact Me</h2>
             </aside>
         </div>
         <div id="info-card">
-            <p>+1 (407) 346 - 6283</p>
-            <p>luna.joffily@gmail.com</p>
-            <p><a href="https://github.com/Lujoffily" target="_blank">GitHub</a></p>
-            <p><a href="https://www.linkedin.com/in/luna-joffily-b4793a270/" target="_blank">LinkedIn</a></p>
+            <p id="phone">+1 (407) 346 - 6283</p>
+            <p id="email">luna.joffily@gmail.com</p>
+            <p id="GitHub"><a href="https://github.com/Lujoffily" target="_blank">GitHub</a></p>
+            <p id="Linked"><a href="https://www.linkedin.com/in/luna-joffily-b4793a270/" target="_blank">LinkedIn</a></p>
         </div>
         </main>
 
@@ -113,3 +113,10 @@
 
 </body>
 </html>
+
+
+
+#info-card {
+    display: flex;
+    flex-wrap: wrap;
+}
