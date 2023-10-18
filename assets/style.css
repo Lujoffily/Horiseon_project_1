@@ -252,6 +252,10 @@ footer {
 }
 
 @media screen and (max-width: 1202px) {
+    li {
+        padding: 0px 66px;
+    }
+   
     #About-fix {
         width: 5.2em;
     }
@@ -263,63 +267,76 @@ footer {
     }
 
     .Contact {
-        height: 6em;
+        height: 7em;
     }
 
     #info-card {
-        width: 10em;
         padding-left: 5em;
     }
     
     #phone {
-        width: 5em;
+        width: 9em;
         padding-right: 5em;
+        
     }
     
-    #email{
-        width: 8.5em;
-        padding-right: 5em;
+    #email {
+        width: 8.5em;        
     }
 
-    #GitHub{
+    #GitHub {
         width: 8.5em;
         padding-right: 5em;
+        position: absolute;
+        padding-top: 5em;
     }
 
-    #Linked{
+    #Linked {
         width: 8.5em;
-        padding-right: 5em;
+        position: absolute;
+        padding-top: 5em;
+        padding-left: 14.8em;
+    }
+    
+    #horiseon-img {
+        width: 24.4em;
+        height: 20em;
+    }
+
+    #Trip-fixed-img, #Car-fixed-img, #Gaming-fixed-img {
+        width: 7.95em;
+        height: 15em;
     }
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1026px) {
     #header {
-        width: 34em;
+        width: 34.3em;
         font-size: 30px;
     }
     
     #info-card {
-        margin: 0 5px;
+        padding-left: 2em;
     }
 
 
     #About {
-         display: flex;
+        display: flex;
         flex-wrap: wrap;
     }
 
 
     div#box-2.Column, div#know-more.Column {
-        padding: 35px 0 0 2em;
+        padding-left: 2em;
     }
 
 
     #know-more {
-        width: 10em;
+        width: 12em;
     }
 
-    #Project {
-        flex-wrap: wrap;
+    #images {
+        padding-left: 2em;
     }
 
     li {
@@ -327,59 +344,135 @@ footer {
     }
 
     .Contact {
-        height: 8em;
-    }
-
-    
-}
-
-
-@media screen and (max-width: 870px) {
-    body {
-        font-size: 35px;
-    }
-
-
-    li {
-        padding: 0 25px;
-    }
-
-    #header {
-        width: 47em;
-        font-size: 20px;
-    }
-
-    #menu-bar {
-        font-size: 28px;
-    }
-
-
-    #info-card p{
-        margin: 0;
-        padding: 0;
-    }
-
-    #info {
-        flex-wrap: wrap;
-    }
-
-    #info-card a {
-    padding: 0 20px;
+        height: 7em;
     }
 
     #horiseon-img {
         width: 20em;
+        height: 17em;
     }
 
     #Trip-fixed-img, #Car-fixed-img, #Gaming-fixed-img {
-        width: 10em;
-        height: 10em;
+        width: 6.5em;
+        height: 14em;
+    }
+
+    #phone {
+        width: 9em;
+        padding-right: 0;
+    }
+    
+    #email {
+        width: 10.5em;        
+    }
+
+    #GitHub {
+        width: 8.5em;
+        padding-right: 5em;
+        position: absolute;
+        padding-top: 5em;
+    }
+
+    #Linked {
+        width: 8.5em;
+        position: absolute;
+        padding-top: 5em;
+        padding-left: 9.95em;
+    }
+}
+
+
+@media screen and (max-width: 770px) {
+    body {
+        font-size: 35px;
+    }
+
+    #header {
+        width: 25.8em;
+        font-size: 30px;
+    }
+
+    #menu-bar {
+        font-size: 29px;
+    }
+
+    #Hello-box {
+        width: 19.15em;
+    }
+
+    aside {
+        border-right: 0;
+        border-bottom: 5px solid aqua; 
+    }
+
+    #menu-bar {
+        font-size: 29px;
+    }
+
+    #About-fix {
+        width: 18em;
+        margin: 0;
+    }
+
+    div#box-2.Column {
+        padding-left: 0;
+    }
+
+    div#know-more.Column {
+        padding-left: 44.5px;
+        width: 12em;
     }
 
     #Project {
         flex-wrap: nowrap;
         flex-direction: column;
-        margin-top: 20em;
+        margin-top: 0;
+    }
+
+    #Project-fix {
+        padding-right: 0;
+        margin: 0;
+    }
+
+    #images {
+        padding-left: 0;
+        padding-top: 1em;
+    }
+
+    #horiseon-img {
+        width: 19em;
+    }
+
+    #Trip-fixed-img, #Car-fixed-img, #Gaming-fixed-img {
+        width: 6.2em;
+        height: 10em;
+    }
+
+    #Contact-section {
+        flex-wrap: wrap;
+    }
+
+    #Contact-fix {
+        height: 2em;
+        width: 18.5em;
+    }
+
+    #info-card {
+    padding-left: 0;
+    }
+
+    #GitHub {
+        width: 8.5em;
+        padding-right: 5em;
+        position: absolute;
+        padding-top: 2em;
+    }
+
+    #Linked {
+        width: 8.5em;
+        position: absolute;
+        padding-top: 2em;
+        padding-left: 9.95em;
     }
 }
 
@@ -389,6 +482,9 @@ footer {
     font-size: 20px;
     }
 
+    li {
+        padding: 10px;
+    }
 
     h1 {
         font-size: 30px;
@@ -399,6 +495,10 @@ footer {
         font-size: 30px; 
     }
 
+    aside{
+        border-bottom: 5px solid aqua;
+        width: 19em;
+    }
 
     #logo {
         width: 70px;
@@ -406,13 +506,21 @@ footer {
 
 
     #header {
-        width: 45em;
+        width: 16.1em;
     }
 
+    #Hello-box{
+        width: 20em;
+    }
+
+    #About-fix {
+        width: 10.5em;
+    }
 
     #menu-bar {
         font-size: 20px;
         font-weight: 600;
+        padding-left: 0;
     }
 
 
@@ -425,9 +533,8 @@ footer {
         margin: 2em 0 1em 0;
     }
 
-
-    aside {
-        border-right: white
+    #Contact-fix {
+        width: 13em;
     }
 }
 
