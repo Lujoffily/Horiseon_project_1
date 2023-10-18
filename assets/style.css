@@ -552,7 +552,7 @@ footer {
 
 @media screen and (max-width: 320px) {
     aside {
-        width: 13em;
+        width: 14em;
     }   
 
     .about-me {
@@ -565,15 +565,15 @@ footer {
 
     #menu-bar {
         flex-wrap: wrap;
-        width: 13em;
+        width: 12em;
     }
 
     #ProjectBtn {
-        padding-right: 4em;
+        padding-right: 3em;
     }
  
     #ContactBtn {
-        padding-right: 2em;
+        padding-right: 1em;
     }
 
     .about-me #Hello-box {
@@ -590,7 +590,8 @@ footer {
     }
 
     #About-fix {
-        height: 2em;
+        height: 25px;
+        width: 7em;
     }
 
     #info {
@@ -619,6 +620,7 @@ footer {
 
     #Contact-fix {
         height: 1.5em;
+        width: 8.5em;
     }
 
     #info-card {
