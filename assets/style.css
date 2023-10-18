@@ -251,6 +251,8 @@ footer {
     text-align: center;
 }
 
+
+
 @media screen and (max-width: 1202px) {
     li {
         padding: 0px 66px;
@@ -536,50 +538,104 @@ footer {
     #Contact-fix {
         width: 13em;
     }
+
+    #Trip-fixed-img, #Car-fixed-img, #Gaming-fixed-img {
+        width: 6.1em;
+        height: 13em;
+    }
+
+    #Linked {
+        padding-left: 9em;
+    }
 }
 
 
-@media screen and (max-width: 480px) {
-    body {
-        font-size: 25px;
-    }
-
-
-    #logo {
-        width: 80px;
-    }
-
-
-    #header {
-        font-size: 33px;
-        width: 27em;
-    }
-
-
-    .memoji {
-    width: 4em;
-    }
-
-
-    #box-1 {
-        width: 10em;
-    }
-
+@media screen and (max-width: 320px) {
+    aside {
+        width: 13em;
+    }   
 
     .about-me {
-    margin-left: 10em;
+        margin-left: 25px;
     }
 
-    #Project {
-        flex-wrap: nowrap;
-        flex-direction: column;
-        margin-top: 40em;
-    }
-}
-
-@media screen and (max-width: 230px) {
     #header {
-        display: flex;
+        width: 10.7em;
+    }
+
+    #menu-bar {
         flex-wrap: wrap;
+        width: 13em;
+    }
+
+    #ProjectBtn {
+        padding-right: 4em;
+    }
+ 
+    #ContactBtn {
+        padding-right: 2em;
+    }
+
+    .about-me #Hello-box {
+        margin-bottom: 0;
+    }
+
+    #Hello-box {
+        width: 13em;
+        margin-bottom: 2em;
+    }
+
+    #About h2{
+        margin: 1em 0 0.5em 0;
+    }
+
+    #About-fix {
+        height: 2em;
+    }
+
+    #info {
+        flex-wrap: wrap;
+    }
+
+    div#know-more.Column {
+        padding-left: 0;
+        padding-top: 25px;
+        width: 13em;
+    }
+
+    #image {
+        width: 13em;
+    }
+
+    #horiseon-img, #Trip-fixed-img, #Car-fixed-img, #Gaming-fixed-img {
+        width: 13em;
+        height: 13em;
+    }
+
+    #Contact-section {
+        height: 7em;
+        margin-bottom: 7em;
+    }
+
+    #Contact-fix {
+        height: 1.5em;
+    }
+
+    #info-card {
+        flex-wrap: wrap;
+    }
+
+    #GitHub {
+        width: 8.5em;
+        padding-right: 0;
+        position: absolute;
+        padding-top: 4em;
+    }
+
+    #Linked {
+        width: 8.5em;
+        position: absolute;
+        padding-top: 6em;
+        padding-left: 0;
     }
 }
