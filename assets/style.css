@@ -8,8 +8,39 @@ body {
     line-height: 2em;
 }
 
+#body {
+    color:aqua;
+    background-color: black;
+}
 
-section {
+#header {
+    background-color: aqua;
+    height: auto;
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+header #menu-bar{
+    flex: 2;
+    display: flex;
+    justify-content
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section {
     flex-direction: column;
 }
 
@@ -52,13 +83,6 @@ figure {
 }
 
 
-#header {
-    background-color: aqua;
-    height: auto;
-    display: flex;
-    align-items: center;
-    width: auto;
-}
 
 
 #logo {
@@ -290,7 +314,7 @@ footer {
     text-align: center;
     font-family: fantasy;
     font-size: 20px;
-}
+} */
 
 @media screen and (min-width: 360px) {
     #header {
