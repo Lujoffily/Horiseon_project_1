@@ -77,8 +77,34 @@ header #menu-bar .button .link {
     left: 310px; 
 }
 
-.button.active {
+#menu.active li{
     border-top: 2px solid black;
+}
+
+.memoji {
+    width: 10em;
+    padding: 0 38px;
+}
+
+.About-fix {
+    padding: 0 60px;
+}
+
+#box-1 {
+    padding: 0 33px;
+}
+
+h1 {
+    padding: 0 80px;
+    font-size: 45px;
+}
+
+#About-fix {
+    padding: 5px 25px;
+}
+
+#info {
+    padding: 0 45px;
 }
 @media screen and (min-width: 400px) {
     #menu {
