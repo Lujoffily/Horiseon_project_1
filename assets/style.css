@@ -4,13 +4,12 @@
 }
 
 body {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 2em;
-    
+
 }
 
 #menu {
-    width: 13.73em;
     height: 12em;
     text-align: center;
     margin: 15.35em 0 0 -35px;
@@ -28,7 +27,7 @@ body {
 #menu #toggle-btn {
     position: fixed;
     top: 30px;
-    left: 310px;
+    left: 220px;
 }
 
 #toggle-btn span {
@@ -40,7 +39,7 @@ body {
 }
 
 #header {
-    width:100%;
+    width: 98%;
     height: 100px;
     display: flex;
     align-items: center;
@@ -66,22 +65,22 @@ header #menu-bar .button .link {
 
 #menu.active {
     position: absolute;
-    right: 0;
+    right: 5px;
     background: aqua;
     border-bottom: 2px solid black;
 }
 
 #menu.active #toggle-btn {
-    left: 310px; 
+    left: 220px;
 }
 
-#menu.active li{
+#menu.active li {
     border-top: 2px solid black;
 }
 
 .memoji {
-    width: 10em;
-    padding: 0 38px;
+    width: 7em;
+    padding: 0 34.7px;
 }
 
 .About-fix {
@@ -89,16 +88,19 @@ header #menu-bar .button .link {
 }
 
 #box-1 {
-    padding: 0 33px;
+    padding: 0 30px;
+    width: 7.3em;
 }
 
 h1 {
-    padding: 0 80px;
+    padding: 0 30px;
     font-size: 45px;
+    width: 4.7em;
 }
 
 #About-fix {
     padding: 5px 25px;
+    width: 5.9em;
 }
 
 #info {
@@ -106,49 +108,98 @@ h1 {
 }
 
 .projectCon {
-    padding: 0 44px;
+    padding: 0 35px;
     color: black;
 }
 
 #Project-fix {
-    padding: 20px 45px;
+    padding: 10px 25px;
 }
 
 #Bookshelf-img {
-    width: 10em;
-    height: 6em;
-    padding: 0 45px;
+    width: 80%;
+    height: 35%;
+    padding: 0px 34px;
 }
 
 #Weather-img {
-    width: 10em;
-    padding: 5px 45px;
+    width: 80%;
     height: 5em;
+    padding: 20px 34px;
 }
 
 #Contact-section {
-    padding: 25px 45px 0 45px;
+    padding: 5px 25px 0 25px;
 }
 
-#GitHub, #Linked {
+#info-card {
+    padding: 0 10px;
+}
+
+#GitHub,
+#Linked {
     color: black;
 }
 
-footer {
-    padding: 0 45px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+#almost {
+    font-size: 23px;
 }
 
 #last {
-    display: flex;
-    justify-content: space-between;
+    font-size: 23px;
+}
+
+footer {
+    padding: 0 28px;
+    width: 9em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media screen and (min-width: 300px) {
+    #menu #toggle-btn {
+        left: 300px;
+    }
+
+    #menu.active #toggle-btn {
+        left: 300px;
+    }
+
+    #menu.active {
+        position: absolute;
+        right: 0;
+        width: 15.1em;
+    }
+
+    #menu.active li {
+        border-top: 2px solid black;
+        width: 5.5em;
+        height: 1.5em;
+    }
+
+    .memoji {
+        width: 12em;
+    }
+
+    h1 {
+        width: 5em;
+        padding: 0px 70px;
+    }
+
+    #box-1 {
+        padding: 0 45px;
+        width: 11em;
+    }
+
+    footer {
+        padding: 0 72px;
+    }
 }
 
 @media screen and (min-width: 400px) {
     #menu {
         width: 13.9em;
     }
-    
+
     #menu #toggle-btn {
         left: 345px;
     }
@@ -172,13 +223,13 @@ footer {
     }
 
     #skill-text {
-        padding-left: 30px; 
+        padding-left: 30px;
     }
 
     #double {
         display: flex;
         flex-direction: column;
-        margin: -300px 0 0 6.5em;
+        margin: -250px 0 0 6.5em;
     }
 }
 
@@ -186,7 +237,7 @@ footer {
     #logo {
         width: 45px;
     }
-    
+
     #menu #toggle-btn {
         left: 23em;
     }
@@ -195,7 +246,7 @@ footer {
         left: 23em;
     }
 
-    .memoji{
+    .memoji {
         width: 15em;
         padding: 0 5em;
     }
@@ -210,7 +261,7 @@ footer {
     }
 
     #skill-text {
-        padding-left: 3em; 
+        padding-left: 3em;
     }
 
     #double {
@@ -220,8 +271,6 @@ footer {
     }
 
     #Bookshelf-img {
-        width: 15em;
-        height: 10em;
         padding: 0 5em;
     }
 
@@ -279,9 +328,8 @@ footer {
     }
 
     #Bookshelf-img {
-        width: 17em;
-        height: 12em;
-        padding: 0 6em;
+
+        padding: 0 4em;
     }
 
     #Weather-img {
@@ -310,8 +358,6 @@ footer {
     }
 
     #Bookshelf-img {
-        width: 18em;
-        height: 12em;
         padding: 0 8em;
     }
 
@@ -326,7 +372,7 @@ footer {
     #logo {
         width: 55px;
     }
-    
+
     #menu #toggle-btn {
         left: 40em;
     }
@@ -345,8 +391,6 @@ footer {
     }
 
     #Bookshelf-img {
-        width: 20em;
-        height: 15em;
         padding: 0 11.34em;
     }
 
@@ -379,7 +423,7 @@ footer {
         width: 11em;
         padding: 0 36.89em;
     }
-    
+
     #info {
         display: flex;
         justify-content: space-between;
@@ -401,6 +445,7 @@ footer {
     #last {
         padding: 0 25em;
     }
+
     footer {
         padding: 0 37.89em;
     }
