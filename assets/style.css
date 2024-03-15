@@ -3,7 +3,6 @@
     text-decoration: none;
 }
 
-
 body {
     font-size: 30px;
     line-height: 2em;
@@ -19,7 +18,6 @@ body {
     transition: .4s;
 }
 
-
 #menu #menu-bar .button {
     list-style: none;
     color: black;
@@ -32,8 +30,6 @@ body {
     top: 30px;
     left: 310px;
 }
-
-
 
 #toggle-btn span {
     width: 45px;
@@ -264,6 +260,37 @@ footer {
     }
 }
 
+@media screen and (min-width: 900px) {
+    #menu #toggle-btn {
+        left: 28em;
+    }
+
+    .memoji {
+        padding: 0 7.7em;
+    }
+
+    h1 {
+        padding: 0px 3.1em;
+        width: 14em;
+    }
+
+    #About-fix {
+        padding: 5px 45px;
+    }
+
+    #Bookshelf-img {
+        width: 17em;
+        height: 12em;
+        padding: 0 6em;
+    }
+
+    #Weather-img {
+        width: 17em;
+        padding: 5px 6em;
+        height: 13em;
+    }
+}
+
 @media screen and (min-width: 1010px) {
     #menu #toggle-btn {
         left: 31em;
@@ -292,5 +319,89 @@ footer {
         width: 18em;
         padding: 5px 8em;
         height: 12em;
+    }
+}
+
+@media screen and (min-width: 1270px) {
+    #logo {
+        width: 55px;
+    }
+    
+    #menu #toggle-btn {
+        left: 40em;
+    }
+
+    .memoji {
+        width: 20em;
+        padding: 0 11.34em;
+    }
+
+    h1 {
+        padding: 0px 7.2em;
+    }
+
+    #box-1 {
+        padding: 0px 15.84em;
+    }
+
+    #Bookshelf-img {
+        width: 20em;
+        height: 15em;
+        padding: 0 11.34em;
+    }
+
+    #Weather-img {
+        width: 20em;
+        padding: 5px 11.34em;
+        height: 15em;
+    }
+
+    footer {
+        padding: 0 16.82em;
+        width: 9em;
+    }
+}
+
+@media screen and (min-width: 2500px) {
+    #menu #toggle-btn {
+        left: 82.8em;
+    }
+
+    .memoji {
+        padding: 0 32.39em;
+    }
+
+    h1 {
+        padding: 0px 21.26em;
+    }
+
+    #box-1 {
+        width: 11em;
+        padding: 0 36.89em;
+    }
+    
+    #info {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 5em;
+    }
+
+    #image {
+        display: flex;
+    }
+
+    #Weather-img {
+        padding: 5px 11em;
+    }
+
+    #almost {
+        padding: 0 25em;
+    }
+
+    #last {
+        padding: 0 25em;
+    }
+    footer {
+        padding: 0 37.89em;
     }
 }
